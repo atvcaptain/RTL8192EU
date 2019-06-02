@@ -18,6 +18,9 @@
 	#include <linux/if_arp.h>
 	#include <net/ip.h>
 	#include <net/ipx.h>
+	#ifndef _CHECKSM_IPV6_H
+	#include <net/ip6_checksum.h>
+	#endif
 	#include <linux/atalk.h>
 	#include <linux/udp.h>
 	#include <linux/if_pppox.h>
